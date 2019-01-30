@@ -1,4 +1,4 @@
-Web Client
+Web Client:
 The purpose of this program is to send a GET request to a HTTP server
 Obtain the HTTP Response, parse the response header from the body, and 
 print out the body.
@@ -9,7 +9,7 @@ to redirect the output to shell enter in format of following examples
 python3 http_cli.py http://www.fortune.com >filename.txt
 python3 http_cli.py http://flask.pocoo.org/static/logo/flask.png >filename.png
 
-Web Server
+Web Server:
 The purpose of this program is to run a basic web server that can respond to GET 
 requests from http_cli.py, PostMan, or a web browser.
 It will than determine if the GET request is valid, if so will return the page 
