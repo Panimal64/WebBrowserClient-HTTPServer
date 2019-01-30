@@ -20,7 +20,7 @@ server it will respond with 404.  If the URL contains a bad request containing /
 it will respond with 400 and if there is a server 
 error it will respond with 500 to prevent unauthorized file access
 
-USE: python3 http_svr.py PORT (PORT RANGE FOR STUDENT IS 10540-10559)
+USE: python3 http_svr.py [PORT RANGE]
 
 
 Note:  When using a web browser the server may output two responses  respond twice, the first is the actual
